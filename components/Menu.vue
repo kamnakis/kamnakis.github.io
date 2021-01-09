@@ -41,13 +41,9 @@
             <fa-icon icon="briefcase" />
             <span>Work</span>
           </NuxtLink>
-          <NuxtLink class="navlink" to="/contact" @click.native="toggle()">
-            <fa-icon icon="address-card" />
-            <span>Contact</span>
-          </NuxtLink>
         </div>
-        <div class="ml-4">
-          designed by me!
+        <div class="ml-4 text-sm">
+          Copyrights © 2021. Designed by <a href="https://kamnakis.github.io" class="text-teal-600">kamankis</a>
         </div>
       </div>
     </div>
@@ -79,7 +75,7 @@ export default defineComponent({
 }
 
 .navlink.nuxt-link-exact-active {
-  @apply text-green-600 transition-colors duration-200;
+  @apply text-teal-600 transition-colors duration-200;
 }
 
 .navlink.nuxt-link-exact-active::after {
@@ -91,7 +87,7 @@ export default defineComponent({
   width: 3px;
   animation: grow 200ms ease-in forwards;
 
-  @apply bg-green-500;
+  @apply bg-teal-500;
 }
 
 @keyframes grow {

@@ -1,7 +1,7 @@
 <template>
   <div class="courgette">
     <div class="font-light text-4xl sm:text-7xl text-gray-800">
-      Stelios <span class="text-green-600">Kamnakis</span>
+      Stelios <span class="text-teal-600">Kamnakis</span>
     </div>
     <div class="font-medium text-left text-xl sm:text-4xl text-gray-800 ml-6 -mt-2 sm:-mt-6">
       Software Developer

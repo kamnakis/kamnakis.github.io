@@ -1,5 +1,5 @@
 <template>
-  <div class="px-6 py-8 grid grid-cols-2 grid-flow-row-dense col-gap-2 row-gap-2 sm:grid-flow-col-dense sm:grid-rows-2 sm:px-4 sm:py-6">
+  <div class="px-6 py-8 grid grid-cols-3 grid-flow-row-dense col-gap-2 row-gap-2 sm:grid-flow-col-dense sm:grid-rows-2 sm:px-4 sm:py-6">
     <img
       v-for="(img, index) in skillset"
       :key="img.slug"

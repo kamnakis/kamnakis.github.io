@@ -2,10 +2,10 @@
   <div class="w-full flex items-center justify-start">
     <!-- Title -->
     <div class="hidden sm:block ml-8 lg:ml-48 relative kaushanScript text-4xl lg:text-7xl text-gray-800">
-      About <span class="text-green-500">me</span>
+      About <span class="text-teal-500">me</span>
     </div>
     <div class="sm:hidden fixed top-0 left-0 right-0 text-4xl kaushanScript mt-1 text-gray-800">
-      About <span class="text-green-500">me</span>
+      About <span class="text-teal-500">me</span>
     </div>
 
     <!-- Content -->
@@ -49,14 +49,6 @@
             –Mahatma Gandhi
           </span>
         </div>
-
-        <!-- Contact -->
-        <NuxtLink
-          to="/contact"
-          class="mt-8 courgette text-blue-700 hover:text-blue-900"
-        >
-          Contact me here!
-        </NuxtLink>
       </div>
     </div>
   </div>

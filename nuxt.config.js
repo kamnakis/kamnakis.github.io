@@ -12,6 +12,12 @@ export default {
     ]
   },
 
+  target: 'static',
+
+  router: {
+    base: '/kamnakis/'
+  },
+
   server: {
     host: '0.0.0.0', // default: localhost
     port: 8080
