@@ -15,7 +15,7 @@ export default {
   target: 'static',
 
   router: {
-    base: '/kamnakis/'
+    base: '/'
   },
 
   server: {
